@@ -1,0 +1,3 @@
+set DEBUG_PORT="*:8787"
+
+call kc.bat --verbose start-dev --cache=ispn --metrics-enabled=true --db postgres --db-url-host 192.168.88.2 --db-username postgres --db-password postgres  --http-port 8080 --hostname-strict=false --log-level="ru.korotin:TRACE" --debug --spi-events-listener--threat-detector--bootstrap-servers=localhost:9092 --spi-events-listener--threat-detector--topic=userEvents --spi-events-listener--threat-detector--enabled=true

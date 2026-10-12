@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>keycloak-threat-detection</artifactId>
+    <version>DEV-SNAPSHOT</version>
+    <description>Asynchronous threat detection module for Keycloak</description>
+    <packaging>pom</packaging>
+    <name>Keycloak Threat Detection</name>
+    <groupId>ru.korotin</groupId>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <modules>
+        <module>keycloak-spi</module>
+        <module>schema</module>
+    </modules>
+</project>
